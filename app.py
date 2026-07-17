@@ -1,7 +1,8 @@
 import streamlit as st
 from io import StringIO
 from pathlib import Path
-from main import FastaParser, SequenceAnalyzer
+from sequences import FastaParser
+from sequences import SequenceAnalyzer
 
 st.set_page_config(page_title="Sequence Analyzer", layout="wide")
 st.markdown("""
